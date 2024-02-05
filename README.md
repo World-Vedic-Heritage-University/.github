@@ -3,19 +3,10 @@
 
 ```mermaid
 
+
 graph TD;
 
-    veda-->ṛgveda;
-    veda-->yajurveda;
-    veda-->sāmaveda;
-    veda-->atharvavedaḥ;
-
-
-    ṛgveda-->vedāṅga;
-    yajurveda-->vedāṅga;
-    sāmaveda-->vedāṅga;
-    atharvavedaḥ-->vedāṅga;
-    
+    veda-->vedāṅga;    
     vedāṅga-->śikṣā;
     vedāṅga-->chandas;
     vedāṅga-->vyākaraṇa;
@@ -28,8 +19,6 @@ graph TD;
     dharmasūtra-->dharmaśāstra;
     dharmaśāstra-->itihasa;
     itihasa-->purāṇa;
-
-
 
 ```
 
