@@ -26,7 +26,7 @@ graph TD;
     kalpa-->śrautasūtras;
     kalpa-->grihyasutras;
     dharmasūtra-->dharmaśāstra;
-    purāṇa-->dharmaśāstra;
+    dharmaśāstra-->itihasa;
     itihasa-->purāṇa;
 
 
