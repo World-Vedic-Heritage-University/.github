@@ -1,22 +1,28 @@
-> According to Indian ethos only Vedas are pramāṇas or authority Abhijñāna Śākuntala they have come from Gods direct, being apauruṣeya and have been revealed to ancient Ṛṣis who are mantra draṣṭāraḥ. After Vedas, prominence is in the order of Āgama, Smṛti, Itihāsa and Purāṇa, if they are not contradicting with vedapramāṇa (Vide Tamil Commentary on Śiva Gītā 3).
+>शाखा, śā́khā: "a branch or school of the Veda (each school adhering to its own traditional text and interpretation)"
 
+## śākala
+ṛgveda
 
-```mermaid
+## madhyandina 
+shukla yajurveda
 
+## kanva
+shukla yajurveda
 
-graph TD;
+## taittiriya
+krishna yajurveda
+    
+## maitrayani
+krishna yajurveda
 
-    veda-->vedāṅga;    
-    vedāṅga-->śikṣā;
-    vedāṅga-->chandas;
-    vedāṅga-->vyākaraṇa;
-    vedāṅga-->nirukta;
-    vedāṅga-->kalpa;
-    vedāṅga-->jyotiṣa;
-    kalpa-->dharmasūtra;
-    kalpa-->śrautasūtras;
-    kalpa-->grihyasutras;
-    dharmasūtra-->dharmaśāstra;
+## kauthuma
+sāmaveda
 
-```
+## ranayaniya
+sāmaveda
 
+## jaiminiya
+sāmaveda
+
+## shaunaka
+atharvavedaḥ
