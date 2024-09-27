@@ -38,6 +38,8 @@ body:before {
 	--site-language-flex-alignment: flex-start;
 	--site-language-indent-left: 1;
 	--site-language-indent-right: 0;
+	--site-language-margin-left: 0;
+	--site-language-margin-right: auto;
 	--viewport-height: 100vh;
 }
 
@@ -113,6 +115,10 @@ a[onclick]:not([href]) {
 	cursor: pointer;
 }
 
+unloaded-script {
+	display: none;
+}
+
 #wrapper {
 	-webkit-overflow-scrolling: touch;
 	align-items: center;
@@ -130,6 +136,8 @@ a[onclick]:not([href]) {
 	--flex-alignment: var(--site-language-flex-alignment);
 	--indent-left: var(--site-language-indent-left);
 	--indent-right: var(--site-language-indent-right);
+	--margin-left: var(--site-language-margin-left);
+	--margin-right: var(--site-language-margin-right);
 	--border-radius-tl: 0;
 	--border-radius-tr: 0;
 	--border-radius-br: 0;
@@ -429,6 +437,36 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 	margin-top: 1rem;
 }
 
+#text07 {
+	color: #FFFFFF;
+	font-family: 'JetBrains Mono', monospace;
+	font-size: 2.625em;
+	line-height: 1.375;
+	font-weight: 800;
+}
+
+#text07 u {
+	text-decoration: none;
+	box-shadow: 0 0.125em 0 0 #2DFCA5;
+}
+
+#text07 mark {
+	color: #141414;
+	background-color: #BCF545;
+}
+
+#text07 a {
+	text-decoration: none;
+}
+
+#text07 a:hover {
+	text-decoration: underline;
+}
+
+#text07 span.p:nth-child(n + 2) {
+	margin-top: 1rem;
+}
+
 #text05 {
 	color: #FFFFFF;
 	font-family: 'JetBrains Mono', monospace;
@@ -459,7 +497,7 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 	margin-top: 1rem;
 }
 
-#text07 {
+#text11 {
 	color: #FFFFFF;
 	font-family: 'JetBrains Mono', monospace;
 	font-size: 2.625em;
@@ -467,25 +505,25 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 	font-weight: 800;
 }
 
-#text07 u {
+#text11 u {
 	text-decoration: none;
 	box-shadow: 0 0.125em 0 0 #2DFCA5;
 }
 
-#text07 mark {
+#text11 mark {
 	color: #141414;
 	background-color: #BCF545;
 }
 
-#text07 a {
+#text11 a {
 	text-decoration: none;
 }
 
-#text07 a:hover {
+#text11 a:hover {
 	text-decoration: underline;
 }
 
-#text07 span.p:nth-child(n + 2) {
+#text11 span.p:nth-child(n + 2) {
 	margin-top: 1rem;
 }
 
@@ -951,6 +989,60 @@ th {
 	padding-right: 0;
 }
 
+#table03 a {
+	text-decoration: none;
+}
+
+#table01 {
+	color: #FFFFFF;
+	font-family: 'Inter', sans-serif;
+	letter-spacing: 0.025rem;
+	font-size: 1em;
+	line-height: 1.875;
+	font-weight: 300;
+}
+
+#table01 mark {
+	color: #1F96ED;
+	background-color: transparent;
+}
+
+#table01 a {
+	text-decoration: underline;
+}
+
+#table01 a:hover {
+	text-decoration: none;
+}
+
+#table01 .table-inner {
+	width: 30rem;
+}
+
+#table01 thead {
+	border-bottom: solid 2px #FFFFFF;
+}
+
+#table01 tbody tr {
+	border-top: solid 1px #FFFFFF;
+}
+
+#table01 tbody tr:first-child {
+	border-top: 0;
+}
+
+#table01 th, #table01 td {
+	padding: 0.5rem 0.6875rem;
+}
+
+#table01 th:first-child, #table01 td:first-child {
+	padding-left: 0;
+}
+
+#table01 th:last-child, #table01 td:last-child {
+	padding-right: 0;
+}
+
 #table02 {
 	color: #FFFFFF;
 	font-family: 'Inter', sans-serif;
@@ -1215,6 +1307,13 @@ hr:before {
 		line-height: 1.375;
 	}
 	
+	#text07 {
+		letter-spacing: 0rem;
+		width: 100%;
+		font-size: 1.75em;
+		line-height: 1.375;
+	}
+	
 	#text05 {
 		letter-spacing: 0rem;
 		width: 100%;
@@ -1222,7 +1321,7 @@ hr:before {
 		line-height: 1.375;
 	}
 	
-	#text07 {
+	#text11 {
 		letter-spacing: 0rem;
 		width: 100%;
 		font-size: 1.75em;
@@ -1443,6 +1542,16 @@ hr:before {
 		padding: 0.5rem 0.6875rem;
 	}
 	
+	#table01 {
+		letter-spacing: 0.021875rem;
+		font-size: 1em;
+		line-height: 1.875;
+	}
+	
+	#table01 th, #table01 td {
+		padding: 0.5rem 0.6875rem;
+	}
+	
 	#table02 {
 		letter-spacing: 0.021875rem;
 		font-size: 1em;
@@ -1523,11 +1632,15 @@ hr:before {
 		font-size: 1.75em;
 	}
 	
+	#text07 {
+		font-size: 1.75em;
+	}
+	
 	#text05 {
 		font-size: 1.75em;
 	}
 	
-	#text07 {
+	#text11 {
 		font-size: 1.75em;
 	}
 	
@@ -1548,6 +1661,10 @@ hr:before {
 	}
 	
 	#table03 {
+		font-size: 1em;
+	}
+	
+	#table01 {
 		font-size: 1em;
 	}
 	
