@@ -437,36 +437,6 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 	margin-top: 1rem;
 }
 
-#text07 {
-	color: #FFFFFF;
-	font-family: 'JetBrains Mono', monospace;
-	font-size: 2.625em;
-	line-height: 1.375;
-	font-weight: 800;
-}
-
-#text07 u {
-	text-decoration: none;
-	box-shadow: 0 0.125em 0 0 #2DFCA5;
-}
-
-#text07 mark {
-	color: #141414;
-	background-color: #BCF545;
-}
-
-#text07 a {
-	text-decoration: none;
-}
-
-#text07 a:hover {
-	text-decoration: underline;
-}
-
-#text07 span.p:nth-child(n + 2) {
-	margin-top: 1rem;
-}
-
 #text05 {
 	color: #FFFFFF;
 	font-family: 'JetBrains Mono', monospace;
@@ -494,6 +464,36 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 }
 
 #text05 span.p:nth-child(n + 2) {
+	margin-top: 1rem;
+}
+
+#text07 {
+	color: #FFFFFF;
+	font-family: 'JetBrains Mono', monospace;
+	font-size: 2.625em;
+	line-height: 1.375;
+	font-weight: 800;
+}
+
+#text07 u {
+	text-decoration: none;
+	box-shadow: 0 0.125em 0 0 #2DFCA5;
+}
+
+#text07 mark {
+	color: #141414;
+	background-color: #BCF545;
+}
+
+#text07 a {
+	text-decoration: none;
+}
+
+#text07 a:hover {
+	text-decoration: underline;
+}
+
+#text07 span.p:nth-child(n + 2) {
 	margin-top: 1rem;
 }
 
@@ -1307,14 +1307,14 @@ hr:before {
 		line-height: 1.375;
 	}
 	
-	#text07 {
+	#text05 {
 		letter-spacing: 0rem;
 		width: 100%;
 		font-size: 1.75em;
 		line-height: 1.375;
 	}
 	
-	#text05 {
+	#text07 {
 		letter-spacing: 0rem;
 		width: 100%;
 		font-size: 1.75em;
@@ -1632,11 +1632,11 @@ hr:before {
 		font-size: 1.75em;
 	}
 	
-	#text07 {
+	#text05 {
 		font-size: 1.75em;
 	}
 	
-	#text05 {
+	#text07 {
 		font-size: 1.75em;
 	}
 	
